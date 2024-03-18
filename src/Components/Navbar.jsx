@@ -43,7 +43,7 @@ const Navbar = () => {
           <NavLink to="/">
             <div className="imageDetail w-10 flex items-center">
               <img src={shopIcon} alt="shopLogo" />
-              <h1 className="lg:text-3xl sm:text-xl text-black">StyleSpot</h1>
+              <h1 className="lg:text-3xl sm:text-xl text-black">StyleBazaar</h1>
             </div>
           </NavLink>
         </div>

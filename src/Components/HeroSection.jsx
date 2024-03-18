@@ -10,7 +10,7 @@ const HeroSection = () => {
           </div>
 
           <div className="right-part lg:w-3/5 sm:w-screen flex flex-col justify-center gap-5 items-start p-5">
-               <h1 className="text-5xl text-wrap">Get up to 30% off <br/> New Arrivals</h1>
+               <h1 className="text-7xl text-wrap">Get up to 30% off <br/> New Arrivals</h1>
             <button className="w-24 h-10 bg-black text-white ms-2 rounded-full">
             <NavLink to="/AllProduct">
               Shop Now

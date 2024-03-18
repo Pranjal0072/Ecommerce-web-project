@@ -39,7 +39,7 @@ const Footer = () => {
                <input type="text "className="h-12 w-2/5 rounded-full ps-2 text-2xl text-center" placeholder="Email"/>
                <button className="w-40 rounded-full h-12 bg-red-500 text-white">Subscribe</button>
             </div>
-            <h4 className="text-white text-xl font-serif text-center ms-14 lg:w-3/5">StyleSpot.Powered By<span className="text-red-400 text-xl ms-1 font-serif font-bold">Mobirisw</span> </h4>
+            <h4 className="text-white text-xl font-serif text-center ms-14 lg:w-3/5">StyleBazaar.Powered By<span className="text-red-400 text-xl ms-1 font-serif font-bold">@Pranjal-Singh</span> </h4>
         </div>
 
 
