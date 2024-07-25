@@ -5,6 +5,8 @@ import { FaStar } from "react-icons/fa6";
 import { Myprovider } from "./Context/ProductContext";
 import { useNavigate, useParams } from "react-router";
 import { NavLink } from "react-router-dom";
+const fakeApiUrl = import.meta.env.VITE_FAKE_API_URL;
+
 
 {
   /* <p className='text-xl'>our perfect pack for everyday use and walks in the forest.<br/> Stash your laptop (up to 15 inches) in the padded sleeve,<br/> your everyday....</p>
@@ -15,7 +17,8 @@ import { NavLink } from "react-router-dom";
 </div> */
 }
 
-const url = "https://fakestoreapi.com/products";
+const url =fakeApiUrl;
+
 
 const SingeProduct = () => {
   const {

@@ -2,10 +2,11 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
+const firebaseApiKey = import.meta.env.VITE_FIREBASE_API_KEY;
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAoRUCvuYB7VEIk0_C2y_4usSYWA-o6_Qo",
+  apiKey: firebaseApiKey,
   authDomain: "stylespot-efd4d.firebaseapp.com",
   projectId: "stylespot-efd4d",
   storageBucket: "stylespot-efd4d.appspot.com",

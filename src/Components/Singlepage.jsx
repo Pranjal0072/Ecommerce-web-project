@@ -5,8 +5,11 @@ import { FaStar } from "react-icons/fa6";
 import { Myprovider } from "./Context/ProductContext";
 import { useNavigate, useParams } from "react-router";
 import { NavLink } from "react-router-dom";
+const fakeApiUrl = import.meta.env.VITE_FAKE_API_URL;
 
-const url = "https://fakestoreapi.com/products"
+
+const url =fakeApiUrl;
+
 
 const Singlepage = () => {
 

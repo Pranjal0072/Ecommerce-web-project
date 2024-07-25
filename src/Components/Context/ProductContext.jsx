@@ -5,12 +5,14 @@ import { auth} from "../Firebase/Firebase";
 import{onAuthStateChanged} from "firebase/auth";
 import { json } from "react-router";
 import { toast } from "react-toastify";
+const fakeApiUrl = import.meta.env.VITE_FAKE_API_URL;
+
 
 
 
 const ProductContext = createContext();
 
-const url ="https://fakestoreapi.com/products"
+const url =fakeApiUrl;
 
 // const getlocalstoragedata=()=>{
 //   const getdata=localStorage.getItem("StyleSpotcart");
